@@ -1,9 +1,0 @@
-#! /usr/bin/bash
-echo " Enter Path Of Directory : "
-read path 
-# we are using the linux inbuilt tools tar and bzip2
-# bzip2 compresses files better for intergrity
-tar -cvf $path.tar $path
-bzip2 $path.*
-echo " Compressing.......... "
-echo " Compressing complete"
