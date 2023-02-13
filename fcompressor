@@ -5,4 +5,5 @@ read path
 # bzip2 compresses files better for intergrity
 tar -cvf $path.tar $path
 bzip2 $path.*
+echo " Compressing.......... "
 echo " Compressing complete"
